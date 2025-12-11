@@ -2264,1176 +2264,7 @@
         }
       }
     </style>
-    <style>
-      .modern-navbar[_ngcontent-ng-c2038677702] {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1400;
-        background: #fbf4e9;
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
-        box-shadow: 0 4px 20px #db9e3626;
-        border-bottom: 1px solid rgba(219, 158, 54, 0.1);
-        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-          opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      }
-      .modern-navbar.navbar-hidden[_ngcontent-ng-c2038677702] {
-        transform: translateY(-100%);
-        opacity: 0;
-      }
-      .modern-navbar[_ngcontent-ng-c2038677702]
-        *[_ngcontent-ng-c2038677702]:focus {
-        outline: 2px solid #db9e36;
-        outline-offset: 2px;
-      }
-      @media (prefers-contrast: high) {
-        .modern-navbar[_ngcontent-ng-c2038677702]
-          *[_ngcontent-ng-c2038677702]:focus {
-          outline: 3px solid #013c58;
-          outline-offset: 3px;
-        }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        .modern-navbar[_ngcontent-ng-c2038677702] *[_ngcontent-ng-c2038677702] {
-          animation-duration: 0.01ms !important;
-          animation-iteration-count: 1 !important;
-          transition-duration: 0.01ms !important;
-        }
-      }
-      .modern-navbar[_ngcontent-ng-c2038677702]:before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(
-          90deg,
-          transparent 0%,
-          rgba(219, 158, 54, 0.02) 50%,
-          transparent 100%
-        );
-        pointer-events: none;
-      }
-      .navbar-container[_ngcontent-ng-c2038677702] {
-        max-width: 1400px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 2rem;
-        height: 80px;
-      }
-      @media (max-width: 768px) {
-        .navbar-container[_ngcontent-ng-c2038677702] {
-          padding: 0 1rem;
-          height: 70px;
-        }
-      }
-      .brand-section[_ngcontent-ng-c2038677702] {
-        flex: 0 0 auto;
-        z-index: 2;
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .brand-link[_ngcontent-ng-c2038677702] {
-        text-decoration: none;
-        display: block;
-        transition: transform 0.3s ease;
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .brand-link[_ngcontent-ng-c2038677702]:hover {
-        transform: scale(1.02);
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .logo-container[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .brand-logo[_ngcontent-ng-c2038677702] {
-        height: 50px;
-        width: auto;
-        filter: drop-shadow(0 4px 8px rgba(219, 158, 54, 0.2)) brightness(0)
-          saturate(100%) invert(45%) sepia(85%) saturate(2000%)
-          hue-rotate(25deg) brightness(110%) contrast(110%);
-        transition: filter 0.3s ease;
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .brand-logo[_ngcontent-ng-c2038677702]:hover {
-        filter: drop-shadow(0 6px 12px rgba(219, 158, 54, 0.3)) brightness(0)
-          saturate(100%) invert(45%) sepia(85%) saturate(2000%)
-          hue-rotate(25deg) brightness(110%) contrast(110%);
-      }
-      @media (max-width: 768px) {
-        .brand-section[_ngcontent-ng-c2038677702]
-          .brand-logo[_ngcontent-ng-c2038677702] {
-          height: 50px;
-        }
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .brand-text[_ngcontent-ng-c2038677702] {
-        display: none;
-        flex-direction: column;
-        color: #013c58;
-      }
-      @media (min-width: 1250px) {
-        .brand-section[_ngcontent-ng-c2038677702]
-          .brand-text[_ngcontent-ng-c2038677702] {
-          display: flex;
-        }
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .brand-title[_ngcontent-ng-c2038677702] {
-        font-weight: 800;
-        line-height: 1;
-        color: #db9e36;
-        font-size: 1.4rem;
-        letter-spacing: 0.5px;
-      }
-      .brand-section[_ngcontent-ng-c2038677702]
-        .brand-subtitle[_ngcontent-ng-c2038677702] {
-        font-weight: 800;
-        margin-top: -6px;
-        color: #013c58;
-        font-size: 1.4rem;
-        letter-spacing: 3.68px;
-      }
-      .nav-menu.desktop-nav[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-      }
-      @media (max-width: 1024px) {
-        .nav-menu.desktop-nav[_ngcontent-ng-c2038677702] {
-          display: none;
-        }
-      }
-      .nav-group[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-      }
-      .nav-item-wrapper[_ngcontent-ng-c2038677702] {
-        position: relative;
-      }
-      .nav-item-wrapper.dropdown[_ngcontent-ng-c2038677702]
-        .nav-link[_ngcontent-ng-c2038677702]
-        .dropdown-arrow[_ngcontent-ng-c2038677702] {
-        margin-left: 4px;
-        font-size: 18px;
-        transition: transform 0.3s ease;
-      }
-      .nav-item-wrapper.dropdown[_ngcontent-ng-c2038677702]
-        .nav-link[_ngcontent-ng-c2038677702]
-        i.dropdown-arrow[_ngcontent-ng-c2038677702] {
-        font-size: 16px;
-        transition: all 0.3s ease;
-      }
-      .nav-item-wrapper.dropdown[_ngcontent-ng-c2038677702]
-        .nav-link[_ngcontent-ng-c2038677702]
-        i.dropdown-arrow[_ngcontent-ng-c2038677702]:hover {
-        transform: scale(1.1);
-      }
-      .nav-item-wrapper.dropdown[_ngcontent-ng-c2038677702]:hover
-        .dropdown-arrow[_ngcontent-ng-c2038677702] {
-        transform: rotate(180deg);
-      }
-      .nav-link[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        padding: 12px 20px;
-        text-decoration: none;
-        color: #013c58;
-        border-radius: 16px;
-        position: relative;
-        overflow: hidden;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        background: #db9e360d;
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(219, 158, 54, 0.1);
-      }
-      .nav-link[_ngcontent-ng-c2038677702]:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-          90deg,
-          transparent,
-          rgba(219, 158, 54, 0.2),
-          transparent
-        );
-        transition: left 0.5s ease;
-      }
-      .nav-link[_ngcontent-ng-c2038677702]:hover {
-        color: #db9e36;
-        background: #db9e361a;
-        transform: translateY(-2px);
-        box-shadow: 0 8px 25px #db9e3633;
-      }
-      .nav-link[_ngcontent-ng-c2038677702]:hover:before {
-        left: 100%;
-      }
-      .nav-link[_ngcontent-ng-c2038677702]:hover
-        .nav-indicator[_ngcontent-ng-c2038677702] {
-        transform: scaleX(1);
-      }
-      .nav-link.active[_ngcontent-ng-c2038677702] {
-        color: #db9e36;
-        background: #db9e3626;
-        border-color: #db9e364d;
-      }
-      .nav-link.active[_ngcontent-ng-c2038677702]
-        .nav-indicator[_ngcontent-ng-c2038677702] {
-        transform: scaleX(1);
-        background: #db9e36;
-      }
-      .nav-icon[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 24px;
-        height: 24px;
-      }
-      .nav-icon[_ngcontent-ng-c2038677702] mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 20px;
-        width: 20px;
-        height: 20px;
-        color: #db9e36;
-      }
-      .nav-icon[_ngcontent-ng-c2038677702] i[_ngcontent-ng-c2038677702] {
-        font-size: 18px;
-        color: #db9e36;
-        transition: all 0.3s ease;
-      }
-      .nav-icon[_ngcontent-ng-c2038677702] i[_ngcontent-ng-c2038677702]:hover {
-        color: #013c58;
-        transform: scale(1.1);
-      }
-      .nav-text[_ngcontent-ng-c2038677702] {
-        font-size: 15px;
-        font-weight: 500;
-        letter-spacing: 0.3px;
-      }
-      .nav-indicator[_ngcontent-ng-c2038677702] {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 3px;
-        background: #db9e3699;
-        transform: scaleX(0);
-        transition: transform 0.3s ease;
-        border-radius: 3px 3px 0 0;
-      }
-      .dropdown-menu[_ngcontent-ng-c2038677702] {
-        position: absolute;
-        top: calc(100% + 12px);
-        left: 50%;
-        transform: translate(-50%);
-        background: #fbf4e9;
-        border-radius: 16px;
-        box-shadow: 0 20px 40px #00000026;
-        padding: 20px;
-        min-width: 320px;
-        opacity: 0;
-        visibility: hidden;
-        transform: translate(-50%) translateY(-10px);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        border: 1px solid rgba(26, 35, 126, 0.1);
-      }
-      .dropdown-menu.show[_ngcontent-ng-c2038677702] {
-        opacity: 1;
-        visibility: visible;
-        transform: translate(-50%) translateY(0);
-      }
-      .dropdown-menu[_ngcontent-ng-c2038677702]:before {
-        content: "";
-        position: absolute;
-        top: -8px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 16px;
-        height: 16px;
-        background: #fbf4e9;
-        border: 1px solid rgba(26, 35, 126, 0.1);
-        border-bottom: none;
-        border-right: none;
-        transform: translate(-50%) rotate(45deg);
-      }
-      .dropdown-header[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        color: #013c58;
-        font-weight: 600;
-        font-size: 16px;
-        margin-bottom: 16px;
-        padding-bottom: 12px;
-        border-bottom: 2px solid rgba(219, 158, 54, 0.2);
-      }
-      .dropdown-header[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 20px;
-        width: 20px;
-        height: 20px;
-        color: #013c58;
-      }
-      .dropdown-header[_ngcontent-ng-c2038677702] i[_ngcontent-ng-c2038677702] {
-        font-size: 18px;
-        color: #013c58;
-        transition: all 0.3s ease;
-      }
-      .dropdown-header[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702]:hover {
-        color: #db9e36;
-        transform: scale(1.1);
-      }
-      .dropdown-item[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        padding: 12px 16px;
-        text-decoration: none;
-        color: #333;
-        border-radius: 12px;
-        transition: all 0.3s ease;
-        margin-bottom: 8px;
-      }
-      .dropdown-item[_ngcontent-ng-c2038677702]:hover {
-        background: #db9e361a;
-        color: #013c58;
-        transform: translate(4px);
-      }
-      .dropdown-item.active[_ngcontent-ng-c2038677702] {
-        background: #db9e3626;
-        color: #db9e36;
-      }
-      .dropdown-item[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 18px;
-        width: 18px;
-        height: 18px;
-        color: #db9e36;
-      }
-      .dropdown-item[_ngcontent-ng-c2038677702] i[_ngcontent-ng-c2038677702] {
-        font-size: 16px;
-        color: #db9e36;
-        transition: all 0.3s ease;
-      }
-      .dropdown-item[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702]:hover {
-        color: #013c58;
-        transform: scale(1.1);
-      }
-      .dropdown-divider[_ngcontent-ng-c2038677702] {
-        height: 1px;
-        background: #e0e0e0;
-        margin: 16px 0;
-      }
-      .dropdown-submenu[_ngcontent-ng-c2038677702]
-        .submenu-header[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        color: #013c58;
-        font-weight: 600;
-        font-size: 14px;
-        margin-bottom: 12px;
-      }
-      .dropdown-submenu[_ngcontent-ng-c2038677702]
-        .submenu-header[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 18px;
-        width: 18px;
-        height: 18px;
-        color: #013c58;
-      }
-      .dropdown-submenu[_ngcontent-ng-c2038677702]
-        .submenu-grid[_ngcontent-ng-c2038677702] {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 8px;
-      }
-      .dropdown-submenu[_ngcontent-ng-c2038677702]
-        .submenu-item[_ngcontent-ng-c2038677702] {
-        text-decoration: none;
-        transition: transform 0.3s ease;
-      }
-      .dropdown-submenu[_ngcontent-ng-c2038677702]
-        .submenu-item[_ngcontent-ng-c2038677702]:hover {
-        transform: scale(1.05);
-      }
-      .company-logo[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 40px;
-        border-radius: 8px;
-        font-size: 12px;
-        font-weight: 600;
-        color: #fff;
-        text-align: center;
-        transition: all 0.3s ease;
-        gap: 8px;
-        padding: 0 12px;
-      }
-      .company-logo[_ngcontent-ng-c2038677702]
-        .company-icon[_ngcontent-ng-c2038677702] {
-        width: 20px;
-        height: 20px;
-        object-fit: contain;
-        filter: brightness(0) invert(1);
-      }
-      .company-logo[_ngcontent-ng-c2038677702] span[_ngcontent-ng-c2038677702] {
-        font-size: 12px;
-        font-weight: 600;
-      }
-      .company-logo.bmw[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #06c, #004d99);
-      }
-      .company-logo.efl[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #ff6b35, #e55100);
-      }
-      .company-logo.mleasing[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #4caf50, #2e7d32);
-      }
-      .company-logo.mleasing[_ngcontent-ng-c2038677702]
-        .company-icon[_ngcontent-ng-c2038677702] {
-        filter: none;
-      }
-      .company-logo.pko[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #d32f2f, #b71c1c);
-      }
-      .company-logo.santander[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #e53935, #c62828);
-      }
-      .company-logo.volkswagen[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #1976d2, #0d47a1);
-      }
-      .navbar-controls[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-      }
-      @media (max-width: 1024px) {
-        .user-menu[_ngcontent-ng-c2038677702] {
-          display: none;
-        }
-      }
-      .user-menu[_ngcontent-ng-c2038677702]
-        .dropdown-menu.user-dropdown-menu[_ngcontent-ng-c2038677702] {
-        left: auto;
-        right: 0;
-        transform: translate(0) translateY(-10px);
-        min-width: 280px;
-      }
-      .user-menu[_ngcontent-ng-c2038677702]
-        .dropdown-menu.user-dropdown-menu.show[_ngcontent-ng-c2038677702] {
-        transform: translate(0) translateY(0);
-      }
-      .user-menu[_ngcontent-ng-c2038677702]
-        .dropdown-menu.user-dropdown-menu[_ngcontent-ng-c2038677702]:before {
-        left: auto;
-        right: 20px;
-        transform: translate(0) rotate(45deg);
-      }
-      .user-menu[_ngcontent-ng-c2038677702]
-        .logout-item[_ngcontent-ng-c2038677702] {
-        background: none;
-        border: none;
-        width: 100%;
-        text-align: left;
-        cursor: pointer;
-        font-family: inherit;
-        font-size: inherit;
-      }
-      .user-menu[_ngcontent-ng-c2038677702]
-        .logout-item[_ngcontent-ng-c2038677702]:hover {
-        background: #fff5f5;
-        color: #013c58;
-      }
-      .user-menu[_ngcontent-ng-c2038677702]
-        .logout-item[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        color: #db9e36;
-      }
-      .user-button[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        padding: 12px 20px;
-        background: #db9e361a;
-        border: 1px solid rgba(219, 158, 54, 0.2);
-        border-radius: 16px;
-        color: #013c58;
-        cursor: pointer;
-        transition: all 0.3s ease;
-      }
-      .user-button[_ngcontent-ng-c2038677702]:hover {
-        background: #db9e3633;
-        transform: translateY(-2px);
-        color: #013c58;
-      }
-      .user-button[_ngcontent-ng-c2038677702]
-        .user-avatar[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 24px;
-        width: 24px;
-        height: 24px;
-        color: #db9e36;
-      }
-      .user-button[_ngcontent-ng-c2038677702]
-        .user-avatar[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702] {
-        font-size: 24px;
-        color: #db9e36;
-        transition: all 0.3s ease;
-      }
-      .user-button[_ngcontent-ng-c2038677702]
-        .user-avatar[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702]:hover {
-        color: #013c58;
-        transform: scale(1.1);
-      }
-      .user-button[_ngcontent-ng-c2038677702]
-        .user-name[_ngcontent-ng-c2038677702] {
-        font-size: 15px;
-        font-weight: 500;
-      }
-      .user-button[_ngcontent-ng-c2038677702]
-        .dropdown-arrow[_ngcontent-ng-c2038677702] {
-        font-size: 16px;
-        width: 16px;
-        height: 16px;
-        opacity: 0.7;
-        color: #db9e36;
-      }
-      .user-button[_ngcontent-ng-c2038677702]
-        i.dropdown-arrow[_ngcontent-ng-c2038677702] {
-        font-size: 14px;
-        opacity: 0.7;
-        color: #db9e36;
-        transition: all 0.3s ease;
-      }
-      .user-button[_ngcontent-ng-c2038677702]
-        i.dropdown-arrow[_ngcontent-ng-c2038677702]:hover {
-        opacity: 1;
-        transform: scale(1.1);
-      }
-      .mobile-menu-button[_ngcontent-ng-c2038677702] {
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 8px;
-        display: none;
-        position: relative;
-        z-index: 2300;
-        transition: opacity 0.3s ease, visibility 0.3s ease;
-      }
-      @media (max-width: 1024px) {
-        .mobile-menu-button[_ngcontent-ng-c2038677702] {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-      }
-      .mobile-menu-button.menu-open[_ngcontent-ng-c2038677702] {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-      }
-      .hamburger[_ngcontent-ng-c2038677702] {
-        width: 24px;
-        height: 18px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        cursor: pointer;
-      }
-      .hamburger[_ngcontent-ng-c2038677702] span[_ngcontent-ng-c2038677702] {
-        display: block;
-        height: 2px;
-        width: 100%;
-        background: #db9e36;
-        border-radius: 2px;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      }
-      .hamburger.active[_ngcontent-ng-c2038677702]
-        span[_ngcontent-ng-c2038677702]:nth-child(1) {
-        transform: translateY(2px);
-      }
-      .hamburger.active[_ngcontent-ng-c2038677702]
-        span[_ngcontent-ng-c2038677702]:nth-child(2) {
-        opacity: 0.5;
-      }
-      .hamburger.active[_ngcontent-ng-c2038677702]
-        span[_ngcontent-ng-c2038677702]:nth-child(3) {
-        transform: translateY(-2px);
-      }
-      .mobile-overlay[_ngcontent-ng-c2038677702] {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #00000080;
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-        z-index: 2000;
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      }
-      .mobile-overlay.active[_ngcontent-ng-c2038677702] {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-      }
-      @media (min-width: 1025px) {
-        .mobile-overlay[_ngcontent-ng-c2038677702] {
-          display: none !important;
-        }
-      }
-      .mobile-nav[_ngcontent-ng-c2038677702] {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100%;
-        max-width: 380px;
-        height: 100vh;
-        max-height: 100vh;
-        background: linear-gradient(135deg, #fbf4e9, #f8f9ff);
-        z-index: 2100;
-        display: flex;
-        flex-direction: column;
-        transform: translate(100%);
-        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        box-shadow: -8px 0 32px #1a237e4d;
-        overflow: hidden;
-      }
-      .mobile-nav.active[_ngcontent-ng-c2038677702] {
-        transform: translate(0);
-      }
-      @media (max-width: 480px) {
-        .mobile-nav[_ngcontent-ng-c2038677702] {
-          max-width: 100%;
-        }
-      }
-      @media (min-width: 1025px) {
-        .mobile-nav[_ngcontent-ng-c2038677702] {
-          display: none !important;
-        }
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-        background: #fbf4e9;
-        color: #013c58;
-        flex-shrink: 0;
-        position: relative;
-        z-index: 10;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-brand[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-brand[_ngcontent-ng-c2038677702]
-        .mobile-logo[_ngcontent-ng-c2038677702] {
-        height: 32px;
-        width: auto;
-        filter: drop-shadow(0 4px 8px rgba(219, 158, 54, 0.2)) brightness(0)
-          saturate(100%) invert(45%) sepia(85%) saturate(2000%)
-          hue-rotate(25deg) brightness(110%) contrast(110%);
-        transition: filter 0.3s ease;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-brand[_ngcontent-ng-c2038677702]
-        .mobile-logo[_ngcontent-ng-c2038677702]:hover {
-        filter: drop-shadow(0 6px 12px rgba(219, 158, 54, 0.3)) brightness(0)
-          saturate(100%) invert(45%) sepia(85%) saturate(2000%)
-          hue-rotate(25deg) brightness(110%) contrast(110%);
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-brand[_ngcontent-ng-c2038677702]
-        .mobile-brand-text[_ngcontent-ng-c2038677702] {
-        margin-top: 10px;
-        font-size: 18px;
-        font-weight: 600;
-        font-family: Inter, sans-serif;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-close[_ngcontent-ng-c2038677702] {
-        background: none;
-        border: none;
-        color: #013c58;
-        cursor: pointer;
-        padding: 8px;
-        border-radius: 8px;
-        transition: background 0.3s ease;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 40px;
-        min-height: 40px;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-close[_ngcontent-ng-c2038677702]:hover {
-        background: #db9e361a;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-close[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 24px;
-        width: 24px;
-        height: 24px;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-close[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702] {
-        font-size: 20px;
-        transition: all 0.3s ease;
-      }
-      .mobile-nav-header[_ngcontent-ng-c2038677702]
-        .mobile-close[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702]:hover {
-        transform: scale(1.1);
-      }
-      .mobile-nav-content[_ngcontent-ng-c2038677702] {
-        flex: 1;
-        padding: 1rem;
-        overflow-y: auto;
-        overflow-x: hidden;
-        -webkit-overflow-scrolling: touch;
-        min-height: 0;
-      }
-      .mobile-nav-content[_ngcontent-ng-c2038677702]::-webkit-scrollbar {
-        width: 4px;
-      }
-      .mobile-nav-content[_ngcontent-ng-c2038677702]::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      .mobile-nav-content[_ngcontent-ng-c2038677702]::-webkit-scrollbar-thumb {
-        background: #0000004d;
-        border-radius: 2px;
-      }
-      .mobile-nav-content[_ngcontent-ng-c2038677702]::-webkit-scrollbar-thumb:hover {
-        background: #00000080;
-      }
-      .mobile-nav-section[_ngcontent-ng-c2038677702] {
-        margin-bottom: 1.5rem;
-      }
-      .mobile-nav-section[_ngcontent-ng-c2038677702]
-        .mobile-section-title[_ngcontent-ng-c2038677702] {
-        font-size: 16px;
-        font-weight: 600;
-        color: #013c58;
-        margin-bottom: 0.75rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid #f0f0f0;
-        font-family: Inter, sans-serif;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        padding: 12px;
-        text-decoration: none;
-        color: #333;
-        border-radius: 12px;
-        transition: all 0.3s ease;
-        margin-bottom: 6px;
-        background: #f8f9fa;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]:hover {
-        background: #f0f0f0;
-        color: #013c58;
-        transform: translate(4px);
-      }
-      .mobile-nav-link.active[_ngcontent-ng-c2038677702] {
-        background: #db9e3626;
-        color: #db9e36;
-      }
-      .mobile-nav-link.sub[_ngcontent-ng-c2038677702] {
-        margin-left: 1rem;
-        background: #f0f0f0;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-icon[_ngcontent-ng-c2038677702] {
-        flex: 0 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 32px;
-        height: 32px;
-        background: #0000001a;
-        border-radius: 8px;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-icon[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 16px;
-        width: 16px;
-        height: 16px;
-        color: #db9e36;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-icon[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702] {
-        font-size: 14px;
-        color: #db9e36;
-        transition: all 0.3s ease;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-icon[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702]:hover {
-        color: #013c58;
-        transform: scale(1.1);
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-text[_ngcontent-ng-c2038677702] {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-text[_ngcontent-ng-c2038677702]
-        .mobile-nav-title[_ngcontent-ng-c2038677702] {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.2;
-        font-family: Inter, sans-serif;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-text[_ngcontent-ng-c2038677702]
-        .mobile-nav-desc[_ngcontent-ng-c2038677702] {
-        font-size: 11px;
-        opacity: 0.7;
-        margin-top: 2px;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        .mobile-nav-arrow[_ngcontent-ng-c2038677702] {
-        flex: 0 0 auto;
-        opacity: 0.5;
-        font-size: 20px;
-        width: 20px;
-        height: 20px;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        i.mobile-nav-arrow[_ngcontent-ng-c2038677702] {
-        font-size: 16px;
-        opacity: 0.5;
-        transition: all 0.3s ease;
-      }
-      .mobile-nav-link[_ngcontent-ng-c2038677702]
-        i.mobile-nav-arrow[_ngcontent-ng-c2038677702]:hover {
-        opacity: 1;
-        transform: scale(1.1);
-      }
-      .mobile-nav-link.active[_ngcontent-ng-c2038677702]
-        .mobile-nav-icon[_ngcontent-ng-c2038677702] {
-        background: #db9e3633;
-      }
-      .mobile-nav-link.active[_ngcontent-ng-c2038677702]
-        .mobile-nav-icon[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        color: #db9e36;
-      }
-      .mobile-companies-section[_ngcontent-ng-c2038677702] {
-        margin-top: 1rem;
-      }
-      .mobile-companies-section[_ngcontent-ng-c2038677702]
-        .mobile-section-subtitle[_ngcontent-ng-c2038677702] {
-        font-size: 14px;
-        font-weight: 600;
-        color: #013c58;
-        margin-bottom: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        font-family: Inter, sans-serif;
-      }
-      .mobile-companies-grid[_ngcontent-ng-c2038677702] {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 12px;
-        margin-top: 1rem;
-      }
-      .mobile-company-item[_ngcontent-ng-c2038677702] {
-        text-decoration: none;
-        transition: transform 0.3s ease;
-      }
-      .mobile-company-item[_ngcontent-ng-c2038677702]:hover {
-        transform: scale(1.05);
-      }
-      .mobile-company-logo[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        border-radius: 12px;
-        font-size: 10px;
-        font-weight: 600;
-        color: #fff;
-        text-align: center;
-        transition: all 0.3s ease;
-        font-family: Inter, sans-serif;
-        gap: 6px;
-        padding: 0 10px;
-      }
-      .mobile-company-logo[_ngcontent-ng-c2038677702]
-        .company-icon[_ngcontent-ng-c2038677702] {
-        width: 16px;
-        height: 16px;
-        object-fit: contain;
-        filter: brightness(0) invert(1);
-      }
-      .mobile-company-logo[_ngcontent-ng-c2038677702]
-        span[_ngcontent-ng-c2038677702] {
-        font-size: 10px;
-        font-weight: 600;
-      }
-      .mobile-company-logo.bmw[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #06c, #004d99);
-      }
-      .mobile-company-logo.efl[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #ff6b35, #e55100);
-      }
-      .mobile-company-logo.mleasing[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #4caf50, #2e7d32);
-      }
-      .mobile-company-logo.mleasing[_ngcontent-ng-c2038677702]
-        .company-icon[_ngcontent-ng-c2038677702] {
-        filter: none;
-      }
-      .mobile-company-logo.pko[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #d32f2f, #b71c1c);
-      }
-      .mobile-company-logo.santander[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #e53935, #c62828);
-      }
-      .mobile-company-logo.santander[_ngcontent-ng-c2038677702]
-        span[_ngcontent-ng-c2038677702] {
-        font-size: 7px;
-      }
-      .mobile-company-logo.volkswagen[_ngcontent-ng-c2038677702] {
-        background: linear-gradient(135deg, #1976d2, #0d47a1);
-      }
-      .mobile-company-logo.volkswagen[_ngcontent-ng-c2038677702]
-        span[_ngcontent-ng-c2038677702] {
-        font-size: 8px;
-      }
-      .mobile-nav-footer[_ngcontent-ng-c2038677702] {
-        padding: 1rem;
-        border-top: 1px solid #e0e0e0;
-        background: #fbf4e9;
-        flex-shrink: 0;
-      }
-      .mobile-user-section[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      .mobile-user-info[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-      .mobile-user-info[_ngcontent-ng-c2038677702]
-        .mobile-user-avatar[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 32px;
-        width: 32px;
-        height: 32px;
-        color: #db9e36;
-      }
-      .mobile-user-info[_ngcontent-ng-c2038677702]
-        .mobile-user-avatar[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702] {
-        font-size: 32px;
-        color: #db9e36;
-        transition: all 0.3s ease;
-      }
-      .mobile-user-info[_ngcontent-ng-c2038677702]
-        .mobile-user-avatar[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702]:hover {
-        color: #013c58;
-        transform: scale(1.1);
-      }
-      .mobile-user-info[_ngcontent-ng-c2038677702]
-        .mobile-user-details[_ngcontent-ng-c2038677702] {
-        display: flex;
-        flex-direction: column;
-      }
-      .mobile-user-info[_ngcontent-ng-c2038677702]
-        .mobile-user-details[_ngcontent-ng-c2038677702]
-        .mobile-user-name[_ngcontent-ng-c2038677702] {
-        font-size: 14px;
-        font-weight: 600;
-        color: #333;
-      }
-      .mobile-user-info[_ngcontent-ng-c2038677702]
-        .mobile-user-details[_ngcontent-ng-c2038677702]
-        .mobile-user-email[_ngcontent-ng-c2038677702] {
-        font-size: 12px;
-        color: #666;
-      }
-      .mobile-logout[_ngcontent-ng-c2038677702] {
-        background: none;
-        border: none;
-        color: #013c58;
-        cursor: pointer;
-        padding: 8px;
-        border-radius: 8px;
-        transition: background 0.3s ease;
-      }
-      .mobile-logout[_ngcontent-ng-c2038677702]:hover {
-        background: #d32f2f1a;
-      }
-      .mobile-logout[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 20px;
-        width: 20px;
-        height: 20px;
-        color: #db9e36;
-      }
-      .mobile-logout[_ngcontent-ng-c2038677702] i[_ngcontent-ng-c2038677702] {
-        font-size: 18px;
-        color: #db9e36;
-        transition: all 0.3s ease;
-      }
-      .mobile-logout[_ngcontent-ng-c2038677702]
-        i[_ngcontent-ng-c2038677702]:hover {
-        color: #013c58;
-        transform: scale(1.1);
-      }
-      body[_ngcontent-ng-c2038677702] {
-        padding-top: 80px;
-      }
-      @media (max-width: 768px) {
-        body[_ngcontent-ng-c2038677702] {
-          padding-top: 70px;
-        }
-      }
-      @keyframes _ngcontent-ng-c2038677702_slideInDown {
-        0% {
-          transform: translateY(-100%);
-          opacity: 0;
-        }
-        to {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
-      @keyframes _ngcontent-ng-c2038677702_fadeInUp {
-        0% {
-          transform: translateY(20px);
-          opacity: 0;
-        }
-        to {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
-      .dropdown-menu[_ngcontent-ng-c2038677702] {
-        animation: _ngcontent-ng-c2038677702_fadeInUp 0.3s ease;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702]
-        .auth-buttons[_ngcontent-ng-c2038677702] {
-        display: flex;
-        gap: 12px;
-        align-items: center;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702]
-        .auth-buttons[_ngcontent-ng-c2038677702]
-        .auth-button[_ngcontent-ng-c2038677702] {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 16px;
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 14px;
-        transition: all 0.3s ease;
-        border: 2px solid transparent;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702]
-        .auth-buttons[_ngcontent-ng-c2038677702]
-        .auth-button[_ngcontent-ng-c2038677702]
-        mat-icon[_ngcontent-ng-c2038677702] {
-        font-size: 18px;
-        width: 18px;
-        height: 18px;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702]
-        .auth-buttons[_ngcontent-ng-c2038677702]
-        .auth-button.login-button[_ngcontent-ng-c2038677702] {
-        color: #333;
-        background: transparent;
-        border-color: #333;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702]
-        .auth-buttons[_ngcontent-ng-c2038677702]
-        .auth-button.login-button[_ngcontent-ng-c2038677702]:hover {
-        background: #333;
-        color: #fff;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702]
-        .auth-buttons[_ngcontent-ng-c2038677702]
-        .auth-button.register-button[_ngcontent-ng-c2038677702] {
-        color: #fff;
-        background: #333;
-        border-color: #333;
-      }
-      .auth-menu[_ngcontent-ng-c2038677702]
-        .auth-buttons[_ngcontent-ng-c2038677702]
-        .auth-button.register-button[_ngcontent-ng-c2038677702]:hover {
-        background: #555;
-        border-color: #555;
-      }
-      @media (max-width: 768px) {
-        .auth-menu[_ngcontent-ng-c2038677702]
-          .auth-buttons[_ngcontent-ng-c2038677702] {
-          gap: 8px;
-        }
-        .auth-menu[_ngcontent-ng-c2038677702]
-          .auth-buttons[_ngcontent-ng-c2038677702]
-          .auth-button[_ngcontent-ng-c2038677702] {
-          padding: 6px 12px;
-          font-size: 12px;
-        }
-        .auth-menu[_ngcontent-ng-c2038677702]
-          .auth-buttons[_ngcontent-ng-c2038677702]
-          .auth-button[_ngcontent-ng-c2038677702]
-          span[_ngcontent-ng-c2038677702] {
-          display: none;
-        }
-        .auth-menu[_ngcontent-ng-c2038677702]
-          .auth-buttons[_ngcontent-ng-c2038677702]
-          .auth-button[_ngcontent-ng-c2038677702]
-          mat-icon[_ngcontent-ng-c2038677702] {
-          font-size: 16px;
-          width: 16px;
-          height: 16px;
-        }
-      }
-    </style>
+
     <style>
       .footer[_ngcontent-ng-c3488796373] {
         background: #fbf4e9;
@@ -4059,828 +2890,250 @@
         }
       }
     </style>
-    
+
   </head>
   <body  >
     <app-root _nghost-ng-c393995770="" ng-version="18.2.13"
-      ><app-main-nav _ngcontent-ng-c393995770="" _nghost-ng-c2038677702=""
-        ><nav
-          _ngcontent-ng-c2038677702=""
-          role="navigation"
-          aria-label="Main navigation"
-          class="modern-navbar"
-        >
-          <div _ngcontent-ng-c2038677702="" class="navbar-container">
-            <div _ngcontent-ng-c2038677702="" class="brand-section">
-              <a
-                _ngcontent-ng-c2038677702=""
-                routerlink="/"
-                class="brand-link"
-                href="/"
-                ><div _ngcontent-ng-c2038677702="" class="logo-container">
-                  <img
-                    _ngcontent-ng-c2038677702=""
-                    src="assets/images/logo-2.png"
-                    alt="LeasingApp Logo"
-                    class="brand-logo"
-                  />
-                  <div _ngcontent-ng-c2038677702="" class="brand-text">
-                    <span _ngcontent-ng-c2038677702="" class="brand-title"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Leasing
-                        </font></font
-                      ></span
-                    ><span _ngcontent-ng-c2038677702="" class="brand-subtitle"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Marketplace Assignments</font
-                        ></font
-                      ></span
-                    >
-                  </div>
-                </div></a
-              >
-            </div>
-            <div _ngcontent-ng-c2038677702="" class="nav-menu desktop-nav">
-              <div _ngcontent-ng-c2038677702="" class="nav-group">
-                <div _ngcontent-ng-c2038677702="" class="nav-item-wrapper">
-                  <a
-                    _ngcontent-ng-c2038677702=""
-                    routerlink="/"
-                    routerlinkactive="active"
-                    class="nav-link"
-                    href="/"
-                    ><div _ngcontent-ng-c2038677702="" class="nav-icon">
-                      <i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-car"
-                        aria-label="List of leasing offers"
-                      ></i>
-                    </div>
-                    <span _ngcontent-ng-c2038677702="" class="nav-text"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Offer list</font
-                        ></font
-                      ></span
-                    >
-                    <div
-                      _ngcontent-ng-c2038677702=""
-                      class="nav-indicator"
-                    ></div
-                  ></a>
-                </div>
-                <div _ngcontent-ng-c2038677702="" class="nav-item-wrapper">
-                  <a
-                    _ngcontent-ng-c2038677702=""
-                    routerlink="/oferty/dodaj"
-                    routerlinkactive="active"
-                    class="nav-link"
-                    href="/oferty/dodaj"
-                    ><div _ngcontent-ng-c2038677702="" class="nav-icon">
-                      <i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-plus-square"
-                        aria-label="Add a new leasing offer"
-                      ></i>
-                    </div>
-                    <span _ngcontent-ng-c2038677702="" class="nav-text"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Add an offer</font
-                        ></font
-                      ></span
-                    >
-                    <div
-                      _ngcontent-ng-c2038677702=""
-                      class="nav-indicator"
-                    ></div
-                  ></a>
-                </div>
-                <div
-                  _ngcontent-ng-c2038677702=""
-                  class="nav-item-wrapper dropdown"
-                >
-                  <a
-                    _ngcontent-ng-c2038677702=""
-                    routerlink="/cesje"
-                    routerlinkactive="active"
-                    class="nav-link dropdown-trigger"
-                    href="/cesje"
-                    ><div _ngcontent-ng-c2038677702="" class="nav-icon">
-                      <i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-clipboard-list"
-                        aria-label="Lease assignment menu"
-                      ></i>
-                    </div>
-                    <span _ngcontent-ng-c2038677702="" class="nav-text"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Guide</font
-                        ></font
-                      ></span
-                    ><i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-chevron-down dropdown-arrow"
-                      aria-label="Expand the assignment menu"
-                    ></i>
-                    <div
-                      _ngcontent-ng-c2038677702=""
-                      class="nav-indicator"
-                    ></div
-                  ></a>
-                  <div _ngcontent-ng-c2038677702="" class="dropdown-menu">
-                    <div _ngcontent-ng-c2038677702="" class="dropdown-header">
-                      <i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-info-circle"
-                        aria-label="Information about lease assignments"
-                      ></i
-                      ><span _ngcontent-ng-c2038677702=""
-                        ><font dir="auto" style="vertical-align: inherit"
-                          ><font dir="auto" style="vertical-align: inherit"
-                            >Information about assignments</font
-                          ></font
-                        ></span
-                      >
-                    </div>
-                    <a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/cesje/jak-wygladaja"
-                      routerlinkactive="active"
-                      class="dropdown-item"
-                      href="/cesje/jak-wygladaja"
-                      ><i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-eye"
-                        aria-label="See what assignments look like"
-                      ></i
-                      ><span _ngcontent-ng-c2038677702=""
-                        ><font dir="auto" style="vertical-align: inherit"
-                          ><font dir="auto" style="vertical-align: inherit"
-                            >What do assignments look like?</font
-                          ></font
-                        ></span
-                      ></a
-                    >
-                    <div
-                      _ngcontent-ng-c2038677702=""
-                      class="dropdown-divider"
-                    ></div>
-                    <div _ngcontent-ng-c2038677702="" class="dropdown-submenu">
-                      <div _ngcontent-ng-c2038677702="" class="submenu-header">
-                        <i
-                          _ngcontent-ng-c2038677702=""
-                          class="fas fa-building"
-                          aria-label="Assignments in various leasing companies"
-                        ></i
-                        ><span _ngcontent-ng-c2038677702=""
-                          ><font dir="auto" style="vertical-align: inherit"
-                            ><font dir="auto" style="vertical-align: inherit"
-                              >Assignments in companies</font
-                            ></font
-                          ></span
-                        >
-                      </div>
-                      <div _ngcontent-ng-c2038677702="" class="submenu-grid">
-                        <a
-                          _ngcontent-ng-c2038677702=""
-                          routerlink="/cesje/w/bmw"
-                          routerlinkactive="active"
-                          class="submenu-item"
-                          href="/cesje/w/bmw"
-                          ><div
-                            _ngcontent-ng-c2038677702=""
-                            class="company-logo bmw"
-                          >
-                            <img
-                              _ngcontent-ng-c2038677702=""
-                              src="assets/images/leasing-icon/bw.png"
-                              alt="BMW"
-                              class="company-icon"
-                            /><span _ngcontent-ng-c2038677702=""
-                              ><font dir="auto" style="vertical-align: inherit"
-                                ><font
-                                  dir="auto"
-                                  style="vertical-align: inherit"
-                                  >BMW</font
-                                ></font
-                              ></span
-                            >
-                          </div></a
-                        ><a
-                          _ngcontent-ng-c2038677702=""
-                          routerlink="/cesje/w/efl"
-                          routerlinkactive="active"
-                          class="submenu-item"
-                          href="/cesje/w/efl"
-                          ><div
-                            _ngcontent-ng-c2038677702=""
-                            class="company-logo efl"
-                          >
-                            <img
-                              _ngcontent-ng-c2038677702=""
-                              src="assets/images/leasing-icon/credit.png"
-                              alt="EFL"
-                              class="company-icon"
-                            /><span _ngcontent-ng-c2038677702=""
-                              ><font dir="auto" style="vertical-align: inherit"
-                                ><font
-                                  dir="auto"
-                                  style="vertical-align: inherit"
-                                  >EFL</font
-                                ></font
-                              ></span
-                            >
-                          </div></a
-                        ><a
-                          _ngcontent-ng-c2038677702=""
-                          routerlink="/cesje/w/mleasing"
-                          routerlinkactive="active"
-                          class="submenu-item"
-                          href="/cesje/w/mleasing"
-                          ><div
-                            _ngcontent-ng-c2038677702=""
-                            class="company-logo mleasing"
-                          >
-                            <img
-                              _ngcontent-ng-c2038677702=""
-                              src="assets/images/leasing-icon/mleasing.png"
-                              alt="MLeasing"
-                              class="company-icon"
-                            /><span _ngcontent-ng-c2038677702=""
-                              ><font dir="auto" style="vertical-align: inherit"
-                                ><font
-                                  dir="auto"
-                                  style="vertical-align: inherit"
-                                  >MLeasing</font
-                                ></font
-                              ></span
-                            >
-                          </div></a
-                        ><a
-                          _ngcontent-ng-c2038677702=""
-                          routerlink="/cesje/w/pko"
-                          routerlinkactive="active"
-                          class="submenu-item"
-                          href="/cesje/w/pko"
-                          ><div
-                            _ngcontent-ng-c2038677702=""
-                            class="company-logo pko"
-                          >
-                            <img
-                              _ngcontent-ng-c2038677702=""
-                              src="assets/images/leasing-icon/pko.png"
-                              alt="PKO"
-                              class="company-icon"
-                            /><span _ngcontent-ng-c2038677702=""
-                              ><font dir="auto" style="vertical-align: inherit"
-                                ><font
-                                  dir="auto"
-                                  style="vertical-align: inherit"
-                                  >PKO</font
-                                ></font
-                              ></span
-                            >
-                          </div></a
-                        ><a
-                          _ngcontent-ng-c2038677702=""
-                          routerlink="/cesje/w/santander"
-                          routerlinkactive="active"
-                          class="submenu-item"
-                          href="/cesje/w/santander"
-                          ><div
-                            _ngcontent-ng-c2038677702=""
-                            class="company-logo santander"
-                          >
-                            <img
-                              _ngcontent-ng-c2038677702=""
-                              src="assets/images/leasing-icon/santander.png"
-                              alt="Santander"
-                              class="company-icon"
-                            /><span _ngcontent-ng-c2038677702=""
-                              ><font dir="auto" style="vertical-align: inherit"
-                                ><font
-                                  dir="auto"
-                                  style="vertical-align: inherit"
-                                  >Santander</font
-                                ></font
-                              ></span
-                            >
-                          </div></a
-                        ><a
-                          _ngcontent-ng-c2038677702=""
-                          routerlink="/cesje/w/volkswagen"
-                          routerlinkactive="active"
-                          class="submenu-item"
-                          href="/cesje/w/volkswagen"
-                          ><div
-                            _ngcontent-ng-c2038677702=""
-                            class="company-logo volkswagen"
-                          >
-                            <img
-                              _ngcontent-ng-c2038677702=""
-                              src="assets/images/leasing-icon/wolsfwagen.png"
-                              alt="Volkswagen"
-                              class="company-icon"
-                            /><span _ngcontent-ng-c2038677702=""
-                              ><font dir="auto" style="vertical-align: inherit"
-                                ><font
-                                  dir="auto"
-                                  style="vertical-align: inherit"
-                                  >Volkswagen</font
-                                ></font
-                              ></span
-                            >
-                          </div></a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div _ngcontent-ng-c2038677702="" class="navbar-controls">
-              <!---->
-              <div _ngcontent-ng-c2038677702="" class="user-menu">
-                <div
-                  _ngcontent-ng-c2038677702=""
-                  class="nav-item-wrapper dropdown"
-                >
-                  <button _ngcontent-ng-c2038677702="" class="user-button">
-                    <div _ngcontent-ng-c2038677702="" class="user-avatar">
-                      <i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-user-circle"
-                        aria-label="User avatar"
-                      ></i>
-                    </div>
-                    <span _ngcontent-ng-c2038677702="" class="user-name"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >User</font
-                        ></font
-                      ></span
-                    ><i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-chevron-down dropdown-arrow"
-                      aria-label="Expand user menu"
-                    ></i>
-                  </button>
-                  <div
-                    _ngcontent-ng-c2038677702=""
-                    class="dropdown-menu user-dropdown-menu"
-                  >
-                    <div _ngcontent-ng-c2038677702="" class="dropdown-header">
-                      <i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-user"
-                        aria-label="User account"
-                      ></i
-                      ><span _ngcontent-ng-c2038677702=""
-                        ><font dir="auto" style="vertical-align: inherit"
-                          ><font dir="auto" style="vertical-align: inherit"
-                            >User account</font
-                          ></font
-                        ></span
-                      >
-                    </div>
-                    <a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/login"
-                      routerlinkactive="active"
-                      class="dropdown-item"
-                      href="/login.html"
-                      ><i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-sign-in-alt"
-                        aria-label="Log in to the application"
-                      ></i
-                      ><span _ngcontent-ng-c2038677702=""
-                        ><font dir="auto" style="vertical-align: inherit"
-                          ><font dir="auto" style="vertical-align: inherit"
-                            >Log in</font
-                          ></font
-                        ></span
-                      ></a
-                    ><a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/register"
-                      routerlinkactive="active"
-                      class="dropdown-item"
-                      href="/register.html"
-                      ><i
-                        _ngcontent-ng-c2038677702=""
-                        class="fas fa-user-plus"
-                        aria-label="Register in the app"
-                      ></i
-                      ><span _ngcontent-ng-c2038677702=""
-                        ><font dir="auto" style="vertical-align: inherit"
-                          ><font dir="auto" style="vertical-align: inherit"
-                            >Register</font
-                          ></font
-                        ></span
-                      ></a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!----><button
-                _ngcontent-ng-c2038677702=""
-                aria-label="Toggle mobile menu"
-                class="mobile-menu-button"
-              >
-                <div _ngcontent-ng-c2038677702="" class="hamburger">
-                  <span _ngcontent-ng-c2038677702=""></span
-                  ><span _ngcontent-ng-c2038677702=""></span
-                  ><span _ngcontent-ng-c2038677702=""></span>
-                </div>
-              </button>
-            </div>
-          </div>
-          <div _ngcontent-ng-c2038677702="" class="mobile-overlay"></div>
-          <div _ngcontent-ng-c2038677702="" class="mobile-nav">
-            <div _ngcontent-ng-c2038677702="" class="mobile-nav-header">
-              <div _ngcontent-ng-c2038677702="" class="mobile-brand">
-                <img
-                  _ngcontent-ng-c2038677702=""
-                  src="assets/images/logo-2.png"
-                  alt="LeasingApp Logo"
-                  class="mobile-logo"
-                />
-              </div>
-              <button
-                _ngcontent-ng-c2038677702=""
-                class="mobile-close"
-                aria-label="Close mobile menu"
-              >
-                <i
-                  _ngcontent-ng-c2038677702=""
-                  class="fas fa-times"
-                  aria-label="Close menu"
-                ></i>
-              </button>
-            </div>
-            <div _ngcontent-ng-c2038677702="" class="mobile-nav-content">
-              <div _ngcontent-ng-c2038677702="" class="mobile-nav-section">
-                <h3 _ngcontent-ng-c2038677702="" class="mobile-section-title">
-                  <font dir="auto" style="vertical-align: inherit"
-                    ><font dir="auto" style="vertical-align: inherit"
-                      >Main menu</font
-                    ></font
-                  >
-                </h3>
-                <a
-                  _ngcontent-ng-c2038677702=""
-                  routerlink="/"
-                  routerlinkactive="active"
-                  class="mobile-nav-link"
-                  href="/"
-                  ><div _ngcontent-ng-c2038677702="" class="mobile-nav-icon">
-                    <i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-car"
-                      aria-label="List of leasing offers"
-                    ></i>
-                  </div>
-                  <div _ngcontent-ng-c2038677702="" class="mobile-nav-text">
-                    <span _ngcontent-ng-c2038677702="" class="mobile-nav-title"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Offer list</font
-                        ></font
-                      ></span
-                    ><span _ngcontent-ng-c2038677702="" class="mobile-nav-desc"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Browse available offers</font
-                        ></font
-                      ></span
-                    >
-                  </div>
-                  <i
-                    _ngcontent-ng-c2038677702=""
-                    class="fas fa-chevron-right mobile-nav-arrow"
-                    aria-label="Go to the list of offers"
-                  ></i></a
-                ><a
-                  _ngcontent-ng-c2038677702=""
-                  routerlink="/oferty/dodaj"
-                  routerlinkactive="active"
-                  class="mobile-nav-link"
-                  href="/oferty/dodaj"
-                  ><div _ngcontent-ng-c2038677702="" class="mobile-nav-icon">
-                    <i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-plus-square"
-                      aria-label="Add a new leasing offer"
-                    ></i>
-                  </div>
-                  <div _ngcontent-ng-c2038677702="" class="mobile-nav-text">
-                    <span _ngcontent-ng-c2038677702="" class="mobile-nav-title"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Add an offer</font
-                        ></font
-                      ></span
-                    ><span _ngcontent-ng-c2038677702="" class="mobile-nav-desc"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Create a new offer</font
-                        ></font
-                      ></span
-                    >
-                  </div>
-                  <i
-                    _ngcontent-ng-c2038677702=""
-                    class="fas fa-chevron-right mobile-nav-arrow"
-                    aria-label="Go to adding an offer"
-                  ></i
-                ></a>
-              </div>
-              <div _ngcontent-ng-c2038677702="" class="mobile-nav-section">
-                <h3 _ngcontent-ng-c2038677702="" class="mobile-section-title">
-                  <font dir="auto" style="vertical-align: inherit"
-                    ><font dir="auto" style="vertical-align: inherit"
-                      >Guide</font
-                    ></font
-                  >
-                </h3>
-                <a
-                  _ngcontent-ng-c2038677702=""
-                  routerlink="/cesje"
-                  routerlinkactive="active"
-                  class="mobile-nav-link"
-                  href="/cesje"
-                  ><div _ngcontent-ng-c2038677702="" class="mobile-nav-icon">
-                    <i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-clipboard-list"
-                      aria-label="Lease assignment menu"
-                    ></i>
-                  </div>
-                  <div _ngcontent-ng-c2038677702="" class="mobile-nav-text">
-                    <span _ngcontent-ng-c2038677702="" class="mobile-nav-title"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Assignments</font
-                        ></font
-                      ></span
-                    ><span _ngcontent-ng-c2038677702="" class="mobile-nav-desc"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Information about assignments</font
-                        ></font
-                      ></span
-                    >
-                  </div>
-                  <i
-                    _ngcontent-ng-c2038677702=""
-                    class="fas fa-chevron-right mobile-nav-arrow"
-                    aria-label="Go to assignment"
-                  ></i></a
-                ><a
-                  _ngcontent-ng-c2038677702=""
-                  routerlink="/cesje/jak-wygladaja"
-                  routerlinkactive="active"
-                  class="mobile-nav-link sub"
-                  href="/cesje/jak-wygladaja"
-                  ><div _ngcontent-ng-c2038677702="" class="mobile-nav-icon">
-                    <i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-eye"
-                      aria-label="See what assignments look like"
-                    ></i>
-                  </div>
-                  <div _ngcontent-ng-c2038677702="" class="mobile-nav-text">
-                    <span _ngcontent-ng-c2038677702="" class="mobile-nav-title"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >What do assignments look like?</font
-                        ></font
-                      ></span
-                    >
-                  </div>
-                  <i
-                    _ngcontent-ng-c2038677702=""
-                    class="fas fa-chevron-right mobile-nav-arrow"
-                    aria-label="Go to information about assignments"
-                  ></i
-                ></a>
-                <div
-                  _ngcontent-ng-c2038677702=""
-                  class="mobile-companies-section"
-                >
-                  <h4
-                    _ngcontent-ng-c2038677702=""
-                    class="mobile-section-subtitle"
-                  >
-                    <font dir="auto" style="vertical-align: inherit"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        >Assignments in companies</font
-                      ></font
-                    >
-                  </h4>
-                  <div
-                    _ngcontent-ng-c2038677702=""
-                    class="mobile-companies-grid"
-                  >
-                    <a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/cesje/w/bmw"
-                      routerlinkactive="active"
-                      class="mobile-company-item"
-                      href="/cesje/w/bmw"
-                      ><div
-                        _ngcontent-ng-c2038677702=""
-                        class="mobile-company-logo bmw"
-                      >
-                        <img
-                          _ngcontent-ng-c2038677702=""
-                          src="assets/images/leasing-icon/bw.png"
-                          alt="BMW"
-                          class="company-icon"
-                        /><span _ngcontent-ng-c2038677702="">BMW</span>
-                      </div></a
-                    ><a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/cesje/w/efl"
-                      routerlinkactive="active"
-                      class="mobile-company-item"
-                      href="/cesje/w/efl"
-                      ><div
-                        _ngcontent-ng-c2038677702=""
-                        class="mobile-company-logo efl"
-                      >
-                        <img
-                          _ngcontent-ng-c2038677702=""
-                          src="assets/images/leasing-icon/credit.png"
-                          alt="EFL"
-                          class="company-icon"
-                        /><span _ngcontent-ng-c2038677702="">EFL</span>
-                      </div></a
-                    ><a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/cesje/w/mleasing"
-                      routerlinkactive="active"
-                      class="mobile-company-item"
-                      href="/cesje/w/mleasing"
-                      ><div
-                        _ngcontent-ng-c2038677702=""
-                        class="mobile-company-logo mleasing"
-                      >
-                        <img
-                          _ngcontent-ng-c2038677702=""
-                          src="assets/images/leasing-icon/mleasing.png"
-                          alt="MLeasing"
-                          class="company-icon"
-                        /><span _ngcontent-ng-c2038677702="">MLeasing</span>
-                      </div></a
-                    ><a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/cesje/w/pko"
-                      routerlinkactive="active"
-                      class="mobile-company-item"
-                      href="/cesje/w/pko"
-                      ><div
-                        _ngcontent-ng-c2038677702=""
-                        class="mobile-company-logo pko"
-                      >
-                        <img
-                          _ngcontent-ng-c2038677702=""
-                          src="assets/images/leasing-icon/pko.png"
-                          alt="PKO"
-                          class="company-icon"
-                        /><span _ngcontent-ng-c2038677702=""
-                          ><font dir="auto" style="vertical-align: inherit"
-                            ><font dir="auto" style="vertical-align: inherit"
-                              >PKO</font
-                            ></font
-                          ></span
-                        >
-                      </div></a
-                    ><a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/cesje/w/santander"
-                      routerlinkactive="active"
-                      class="mobile-company-item"
-                      href="/cesje/w/santander"
-                      ><div
-                        _ngcontent-ng-c2038677702=""
-                        class="mobile-company-logo santander"
-                      >
-                        <img
-                          _ngcontent-ng-c2038677702=""
-                          src="assets/images/leasing-icon/santander.png"
-                          alt="Santander"
-                          class="company-icon"
-                        /><span _ngcontent-ng-c2038677702="">Santander</span>
-                      </div></a
-                    ><a
-                      _ngcontent-ng-c2038677702=""
-                      routerlink="/cesje/w/volkswagen"
-                      routerlinkactive="active"
-                      class="mobile-company-item"
-                      href="/cesje/w/volkswagen"
-                      ><div
-                        _ngcontent-ng-c2038677702=""
-                        class="mobile-company-logo volkswagen"
-                      >
-                        <img
-                          _ngcontent-ng-c2038677702=""
-                          src="assets/images/leasing-icon/wolsfwagen.png"
-                          alt="Volkswagen"
-                          class="company-icon"
-                        /><span _ngcontent-ng-c2038677702="">Volkswagen</span>
-                      </div></a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div _ngcontent-ng-c2038677702="" class="mobile-nav-section">
-                <h3 _ngcontent-ng-c2038677702="" class="mobile-section-title">
-                  <font dir="auto" style="vertical-align: inherit"
-                    ><font dir="auto" style="vertical-align: inherit"
-                      >Account</font
-                    ></font
-                  >
-                </h3>
-                <a
-                  _ngcontent-ng-c2038677702=""
-                  routerlink="/login"
-                  routerlinkactive="active"
-                  class="mobile-nav-link"
-                  href="/login"
-                  ><div _ngcontent-ng-c2038677702="" class="mobile-nav-icon">
-                    <i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-sign-in-alt"
-                      aria-label="Log in to the application"
-                    ></i>
-                  </div>
-                  <div _ngcontent-ng-c2038677702="" class="mobile-nav-text">
-                    <span _ngcontent-ng-c2038677702="" class="mobile-nav-title"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Log in</font
-                        ></font
-                      ></span
-                    ><span _ngcontent-ng-c2038677702="" class="mobile-nav-desc"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Already have an account?</font
-                        ></font
-                      ></span
-                    >
-                  </div>
-                  <i
-                    _ngcontent-ng-c2038677702=""
-                    class="fas fa-chevron-right mobile-nav-arrow"
-                    aria-label="Go to login"
-                  ></i></a
-                ><a
-                  _ngcontent-ng-c2038677702=""
-                  routerlink="/register"
-                  routerlinkactive="active"
-                  class="mobile-nav-link"
-                  href="/register"
-                  ><div _ngcontent-ng-c2038677702="" class="mobile-nav-icon">
-                    <i
-                      _ngcontent-ng-c2038677702=""
-                      class="fas fa-user-plus"
-                      aria-label="Register in the app"
-                    ></i>
-                  </div>
-                  <div _ngcontent-ng-c2038677702="" class="mobile-nav-text">
-                    <span _ngcontent-ng-c2038677702="" class="mobile-nav-title"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Register</font
-                        ></font
-                      ></span
-                    ><span _ngcontent-ng-c2038677702="" class="mobile-nav-desc"
-                      ><font dir="auto" style="vertical-align: inherit"
-                        ><font dir="auto" style="vertical-align: inherit"
-                          >Create a new account</font
-                        ></font
-                      ></span
-                    >
-                  </div>
-                  <i
-                    _ngcontent-ng-c2038677702=""
-                    class="fas fa-chevron-right mobile-nav-arrow"
-                    aria-label="Go to registration"
-                  ></i
-                ></a>
-              </div>
-              <!----><!---->
-            </div>
-            <!---->
-          </div>
-        </nav></app-main-nav
       >
+      <div class="app-main-nav">
+        <nav role="navigation" aria-label="Główna nawigacja" class="modern-navbar">
+          <div class="navbar-container">
+            <div class="brand-section">
+              <a class="brand-link" href="./index.html">
+                <div class="logo-container">
+                  <img src="assets/images/logo-2.png" alt="LeasingApp Logo" class="brand-logo" />
+                  <div class="brand-text">
+                    <span class="brand-title">Cesje Leasingu</span>
+                    <span class="brand-subtitle">Marketplace</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="nav-menu desktop-nav">
+              <div class="nav-group">
+                <a class="nav-item-wrapper nav-link" href="./index.html">
+                  <div class="nav-icon"><i class="fas fa-car" aria-label="Lista ofert leasingowych"></i></div>
+                  <span class="nav-text">Lista ofert</span>
+                  <div class="nav-indicator"></div>
+                </a>
+
+                <a class="nav-item-wrapper dropdown" href="./Offer.html">Offer</a>
+
+                <a class="nav-item-wrapper nav-link" href="./Offer.html">
+                  <div class="nav-icon"><i class="fas fa-plus-square" aria-label="Dodaj nową ofertę leasingową"></i></div>
+                  <span class="nav-text">Dodaj ofertę</span>
+                  <div class="nav-indicator"></div>
+                </a>
+
+                <a class="nav-item-wrapper dropdown" href="./Guide.html">Guide</a>
+
+                <div class="nav-item-wrapper dropdown">
+                  <a class="nav-link dropdown-trigger" href="./Guide.html">
+                    <div class="nav-icon"><i class="fas fa-clipboard-list" aria-label="Menu cesji leasingowych"></i></div>
+                    <span class="nav-text">Poradnik</span>
+                    <i class="fas fa-chevron-down dropdown-arrow" aria-label="Rozwiń menu cesji"></i>
+                    <div class="nav-indicator"></div>
+                  </a>
+
+                  <div class="dropdown-menu">
+                    <div class="dropdown-header">
+                      <i class="fas fa-info-circle" aria-label="Informacje o cesjach leasingowych"></i>
+                      <span>Informacje o cesjach</span>
+                    </div>
+
+                    <a class="dropdown-item" href="./Guide.html">
+                      <i class="fas fa-eye" aria-label="Zobacz jak wyglądają cesje"></i>
+                      <span>Jak wyglądają cesje</span>
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <div class="dropdown-submenu">
+                      <div class="submenu-header">
+                        <i class="fas fa-building" aria-label="Cesje w różnych firmach leasingowych"></i>
+                        <span>Cesje w firmach</span>
+                      </div>
+
+                      <div class="submenu-grid">
+                        <a class="submenu-item" href="./Guide.html">
+                          <div class="company-logo bmw">
+                            <img src="assets/images/leasing-icon/bw.png" alt="BMW" class="company-icon" />
+                            <span>BMW</span>
+                          </div>
+                        </a>
+
+                        <a class="submenu-item" href="./Guide.html">
+                          <div class="company-logo efl">
+                            <img src="assets/images/leasing-icon/credit.png" alt="EFL" class="company-icon" />
+                            <span>EFL</span>
+                          </div>
+                        </a>
+
+                        <a class="submenu-item" href="./Guide.html">
+                          <div class="company-logo mleasing">
+                            <img src="assets/images/leasing-icon/mleasing.png" alt="MLeasing" class="company-icon" />
+                            <span>MLeasing</span>
+                          </div>
+                        </a>
+
+                        <a class="submenu-item" href="./Guide.html">
+                          <div class="company-logo pko">
+                            <img src="assets/images/leasing-icon/pko.png" alt="PKO" class="company-icon" />
+                            <span>PKO</span>
+                          </div>
+                        </a>
+
+                        <a class="submenu-item" href="./Guide.html">
+                          <div class="company-logo santander">
+                            <img src="assets/images/leasing-icon/santander.png" alt="Santander" class="company-icon" />
+                            <span>Santander</span>
+                          </div>
+                        </a>
+
+                        <a class="submenu-item" href="./Guide.html">
+                          <div class="company-logo volkswagen">
+                            <img src="assets/images/leasing-icon/wolsfwagen.png" alt="Volkswagen" class="company-icon" />
+                            <span>Volkswagen</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end dropdown -->
+              </div>
+            </div>
+
+            <div class="navbar-controls">
+              <div class="user-menu">
+                <div class="nav-item-wrapper dropdown">
+                  <button class="user-button" type="button" aria-expanded="false">
+                    <div class="user-avatar"><i class="fas fa-user-circle" aria-label="Avatar użytkownika"></i></div>
+                    <span class="user-name">Użytkownik</span>
+                    <i class="fas fa-chevron-down dropdown-arrow" aria-label="Rozwiń menu użytkownika"></i>
+                  </button>
+
+                  <div class="dropdown-menu user-dropdown-menu">
+                    <div class="dropdown-header">
+                      <i class="fas fa-user" aria-label="Konto użytkownika"></i>
+                      <span>Konto użytkownika</span>
+                    </div>
+
+                    <a class="dropdown-item" href="./login.html">
+                      <i class="fas fa-sign-in-alt" aria-label="Zaloguj się do aplikacji"></i>
+                      <span>Zaloguj</span>
+                    </a>
+
+                    <a class="dropdown-item" href="./register.html">
+                      <i class="fas fa-user-plus" aria-label="Zarejestruj się w aplikacji"></i>
+                      <span>Zarejestruj</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <button aria-label="Toggle mobile menu" class="mobile-menu-button" type="button">
+                <div class="hamburger">
+                  <span></span><span></span><span></span>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <div class="mobile-overlay"></div>
+
+          <div class="mobile-nav">
+            <div class="mobile-nav-header">
+              <div class="mobile-brand">
+                <img src="assets/images/logo-2.png" alt="LeasingApp Logo" class="mobile-logo" />
+              </div>
+              <button class="mobile-close" aria-label="Zamknij menu mobilne" type="button">
+                <i class="fas fa-times" aria-label="Zamknij menu"></i>
+              </button>
+            </div>
+
+            <div class="mobile-nav-content">
+              <div class="mobile-nav-section">
+                <h3 class="mobile-section-title">Menu główne</h3>
+
+                <a class="mobile-nav-link" href="./index.html">
+                  <div class="mobile-nav-icon"><i class="fas fa-car" aria-label="Lista ofert leasingowych"></i></div>
+                  <div class="mobile-nav-text">
+                    <span class="mobile-nav-title">Lista ofert</span>
+                    <span class="mobile-nav-desc">Przeglądaj dostępne oferty</span>
+                  </div>
+                  <i class="fas fa-chevron-right mobile-nav-arrow" aria-label="Przejdź do listy ofert"></i>
+                </a>
+
+                <a class="mobile-nav-link" href="./oferty/dodaj.html">
+                  <div class="mobile-nav-icon"><i class="fas fa-plus-square" aria-label="Dodaj nową ofertę leasingową"></i></div>
+                  <div class="mobile-nav-text">
+                    <span class="mobile-nav-title">Dodaj ofertę</span>
+                    <span class="mobile-nav-desc">Stwórz nową ofertę</span>
+                  </div>
+                  <i class="fas fa-chevron-right mobile-nav-arrow" aria-label="Przejdź do dodawania oferty"></i>
+                </a>
+              </div>
+
+              <div class="mobile-nav-section">
+                <h3 class="mobile-section-title">Poradnik</h3>
+
+                <a class="mobile-nav-link" href="./Guide.html">
+                  <div class="mobile-nav-icon"><i class="fas fa-clipboard-list" aria-label="Menu cesji leasingowych"></i></div>
+                  <div class="mobile-nav-text">
+                    <span class="mobile-nav-title">Cesje</span>
+                    <span class="mobile-nav-desc">Informacje o cesjach</span>
+                  </div>
+                  <i class="fas fa-chevron-right mobile-nav-arrow" aria-label="Przejdź do cesji"></i>
+                </a>
+
+                <a class="mobile-nav-link sub" href="./Guide.html">
+                  <div class="mobile-nav-icon"><i class="fas fa-eye" aria-label="Zobacz jak wyglądają cesje"></i></div>
+                  <div class="mobile-nav-text">
+                    <span class="mobile-nav-title">Jak wyglądają cesje</span>
+                  </div>
+                  <i class="fas fa-chevron-right mobile-nav-arrow" aria-label="Przejdź do informacji o cesjach"></i>
+                </a>
+
+                <div class="mobile-companies-section">
+                  <h4 class="mobile-section-subtitle">Cesje w firmach</h4>
+                  <div class="mobile-companies-grid">
+                    <a class="mobile-company-item" href="./Guide.html"><div class="mobile-company-logo bmw"><img src="assets/images/leasing-icon/bw.png" alt="BMW" class="company-icon"/><span>BMW</span></div></a>
+                    <a class="mobile-company-item" href="./Guide.html"><div class="mobile-company-logo efl"><img src="assets/images/leasing-icon/credit.png" alt="EFL" class="company-icon"/><span>EFL</span></div></a>
+                    <a class="mobile-company-item" href="./Guide.html"><div class="mobile-company-logo mleasing"><img src="assets/images/leasing-icon/mleasing.png" alt="MLeasing" class="company-icon"/><span>MLeasing</span></div></a>
+                    <a class="mobile-company-item" href="./Guide.html"><div class="mobile-company-logo pko"><img src="assets/images/leasing-icon/pko.png" alt="PKO" class="company-icon"/><span>PKO</span></div></a>
+                    <a class="mobile-company-item" href="./Guide.html"><div class="mobile-company-logo santander"><img src="assets/images/leasing-icon/santander.png" alt="Santander" class="company-icon"/><span>Santander</span></div></a>
+                    <a class="mobile-company-item" href="./Guide.html"><div class="mobile-company-logo volkswagen"><img src="assets/images/leasing-icon/wolsfwagen.png" alt="Volkswagen" class="company-icon"/><span>Volkswagen</span></div></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile-nav-section">
+                <h3 class="mobile-section-title">Konto</h3>
+
+                <a class="mobile-nav-link" href="./login.html">
+                  <div class="mobile-nav-icon"><i class="fas fa-sign-in-alt" aria-label="Zaloguj się do aplikacji"></i></div>
+                  <div class="mobile-nav-text">
+                    <span class="mobile-nav-title">Zaloguj się</span>
+                    <span class="mobile-nav-desc">Masz już konto?</span>
+                  </div>
+                  <i class="fas fa-chevron-right mobile-nav-arrow" aria-label="Przejdź do logowania"></i>
+                </a>
+
+                <a class="mobile-nav-link" href="./register.html">
+                  <div class="mobile-nav-icon"><i class="fas fa-user-plus" aria-label="Zarejestruj się w aplikacji"></i></div>
+                  <div class="mobile-nav-text">
+                    <span class="mobile-nav-title">Zarejestruj się</span>
+                    <span class="mobile-nav-desc">Utwórz nowe konto</span>
+                  </div>
+                  <i class="fas fa-chevron-right mobile-nav-arrow" aria-label="Przejdź do rejestracji"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
       <main _ngcontent-ng-c393995770="">
         <router-outlet _ngcontent-ng-c393995770=""></router-outlet
         ><app-cesje _nghost-ng-c3300197502=""
